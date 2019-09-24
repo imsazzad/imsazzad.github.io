@@ -5,7 +5,7 @@ export default [
     },
     {
         id: 2,
-        name: "Kannada"
+        name: "Bangla"
     },
     {
         id: 3,
