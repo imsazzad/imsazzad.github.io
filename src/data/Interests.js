@@ -1,15 +1,19 @@
 export default [
     {
         id: 1,
-        name: "Yoga"
+        name: "Cricket"
     },
     {
         id: 2,
-        name: "Cooking"
+        name: "FootBall"
     },
     {
         id: 3,
-        name: "Fine Arts"
+        name: "Table Tennis"
+    },
+    {
+        id: 4,
+        name: "foosball"
     },
     {
         id: 4,
