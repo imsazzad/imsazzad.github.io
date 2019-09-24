@@ -8,13 +8,11 @@ import Layout from '../components/layout'
 const IndexPage = () => {
   return <Layout>
   <UserWrapper>
-    <UserTitle>Rashmi <span>AP</span></UserTitle>
+    <UserTitle>Md Abdul<span> Hasib</span></UserTitle>
     <UserDescription>
       <div>
         <p>
-        Hello there, welcome to my portfolio. I am a
-        front end developer, visual artist and an animal lover
-        based out of Bangalore.
+        Hello there, welcome to Md Abdul Hasib's portfolio. He would like to introduce himself as a machine learning engineer(especially deep learning) and backend engineer specialized in python and java. He possesses excellent verbal and written communication skills. He is a quick learner. He has in-depth knowledge of Software Development, Structured and Unstructured Data Analytics, Database Techniques, OS and Data Structures. He can work in a team. He has team-leading experiences also. He is a good motivator, enthusiastic and open to learning new ideas. He has a sound knowledge of recognizing and analyzing information problems. He can handle multiple tasks.
         </p>
         <DownloadButton href="https://github.com/rashmiap/personal-website-react/raw/master/RashmiAp-Resume.pdf"  download title="Resume">Download Resume</DownloadButton>
       </div>

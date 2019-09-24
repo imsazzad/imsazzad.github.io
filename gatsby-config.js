@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Rashmi AP',
+    title: 'Md Abdul Hasib',
     siteUrl: 'http://rashmiap.me',
   },
   plugins: [
