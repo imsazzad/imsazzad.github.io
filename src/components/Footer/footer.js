@@ -3,10 +3,11 @@ import PropTypes from 'prop-types'
 
 const Footer = ({footerClass}) => (
   <div className={`defaultFooter ${footerClass}`}>
-    <p>View site source on <a href="https://github.com/rashmiap/personal-website-react">Github</a> | Designer <a href="https://www.behance.net/ntshgdwn3596">Natasha G</a></p>
+      <p>View site source on <a href="https://github.com/sazzadBuet08/abdulhasib.github.io">Github</a> | Designer <a
+          href="https://www.linkedin.com/in/md-abdul-hasib-sazzad-19b88099/">Natasha G</a></p>
   </div>
-)
+);
 Footer.propTypes = {
   footerClass: PropTypes.string,
-}
+};
 export default Footer
