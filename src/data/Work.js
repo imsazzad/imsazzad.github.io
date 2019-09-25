@@ -1,42 +1,76 @@
-import amygb from '../assets/images/amygb-logo.png'
-import zoojoobe from '../assets/images/zjb-logo.svg'
-import cat from '../assets/images/cat-logo.svg'
-
+import nascenia from '../assets/images/nascenia.png'
+import infolytx from '../assets/images/infologo.png'
+// </li><li></li><li></li><li></li>
 export default [
     {
         id: 1,
-        name: "AmyGb.ai",
-        designation: "Senior Software Engineer",
-        dated: "November 2018 - present",
-        logo: amygb,
-        companyLink: "http://www.amygb.ai",
-        description: "<p>AmyGB Specializes in developing products in the area of Text & Vision with an aim to personalize offerings for enterprises, in a way that enhances their customer experience as well as engagement, while reducing the associated costs for an enterprise using machine learning including deep learning & advanced NLP to simulate human like actions to resolve high impact problems for an enterprise.</p><p>Contribution : <p> <ul><li>Designed and implemented an Express/NodeJS microservice REST API for AmyGB sales website that handles creation, updates and retrieval of data on MongoDB. AWS SES was used to send transactional emails to requested end users.</li><li>Responsible for development and delivery of the complete front-end of products like Mail ERA, Vision ERA and KB Bot.</li><li>Developed several quick web apps within short timelines for multiple client requirements, POCs and trade shows.</li></p>"
+        name: "Infolytx Inc",
+        designation: "Staff Software Engineer / Machine Learning Engineer",
+        dated: "Apr 2019 - present",
+        logo: infolytx, // infolytx logo lagbe
+        companyLink: "http://www.infolytx.com",
+        description: "<p>Infolytx is an AI and Machine Learning company building software solutions to help organizations understand and monetize their data. " +
+            "</p><p>Contribution : <p> " +
+            "<ul><li>Working on different Deep Learning based and NLP solution.</li>" +
+            "<li>Leading AI Team and AI projects to articulate and disseminate AI knowledge as well as domain knowledge to the team members." +
+            "</li><li>Structured unstructured clinical content such as EHRs by extracting and inferring medical terms such as findings, tests, procedures, diseases, etc using NLP techniques</li>" +
+            "<li>Implemented Object Detection Algorithm to classify and localize an object in an image with 98%\n" +
+            "accuracy.</li></p>"
     },
     {
         id: 2,
-        name: "RoundGlass ZoojooBe",
-        designation: "Software Engineer",
-        dated: "June 2016 - October 2018",
-        logo: zoojoobe,
-        companyLink: "https://www.zoojoo.be",
-        description: "<p>Zoojoo.be is a game based social wellness platform that unites the workforce to form healthier habits. The psychology behind Zoojoo.be is to enable peer-to-peer motivation allowing people to challenge, cheer and reward their colleagues and friends within their organisation. <p>Contribution :<p> <ul><li>We are a small tight-knit team, so I got a chance to wear many hats, from requirement analysis to generating the build.</li><li>Worked closely with Product Managers, UX Designers and Backend Engineers to develop pixel perfect User Interface</li><li>Built new user-facing features on the App like Social feed, Dare, Pregnancy module and Journey which were developed with ReactJS on the frontend stack. You can read more about these under the Projects section.</li><li>Developed and maintained the frontend of Zoojoobe sales website.</li></ul><p>Additional :</p><ul><li>Was part of multiple all-day Hackathons to develop new user-facing features.</li><li>Conducted a yoga webinar session on International Yoga Day at Mindtree and Unisys for about 350 employees each.</li><li>Conducted a yoga session for Society of Human Resource Management(SHRM) Professionals for Zoojoobe's Moonshot event at IIM Bangalore.</li><li>Was part of the product team that organised onsite campaigns.</li></ul>"
+        name: "Infolytx Inc",
+        designation: "Senior Software Engineer / Machine Learning Engineer",
+        dated: "Nov 2016 - Mar 2019",
+        logo: infolytx,
+        companyLink: "http://www.infolytx.com",
+        description: "<p>Infolytx is an AI and Machine Learning company building software solutions to help organizations understand and monetize their data. </p><p>In addition to the responsibility as a software engineer descrived in the previous role : <p> <ul></li>" +
+            "<li>Implemented the cohort identification system for the clinical trial in the N2C2 challenge, a competition of Harvard Medical School. Got a position in TOP 5 in competition and were invited to the present the work with AMIA in San Francisco, California.</li>" +
+            "<li>Worked on different Deep Learning based and NLP solution.</li>" +
+            "<li>Detected the type of breast cancer based on the SEER dataset using traditional machine learning and deep learning techniques.</li>" +
+            "<li> Implemented the application to predict the ambulatory status of residents using Deep Learning Techniques(LSTM, Rule-Based)</li>" +
+            "<li>Analyzing electronic medical records</li>" +
+            "<li>Natural language processing in the clinical context (Java)</li>" +
+            "<li>Building web services / APIs (Java, Python)</li>" +
+            "<li>Building front-end applications with ReactJS</li>" +
+            "</ul></p>"
     },
     {
         id: 3,
-        name: "RoundGlass ZoojooBe",
-        designation: "Frontend Developer Intern",
-        dated: "Jan 2016 - May 2016",
-        logo: zoojoobe,
-        companyLink: "https://www.zoojoo.be",
-        description: "<p>Zoojoo.be is a game based social wellness platform that unites the workforce to form healthier habits. The psychology behind Zoojoo.be is to enable peer-to-peer motivation allowing people to challenge, cheer and reward their colleagues and friends within their organisation. <p>Contribution : <p> <ul><li>Performance improvements to the platform. This helped reduce the page load time from 12 seconds to just 4 seconds.</li><li>Worked on multiple client specific feature requirements on the platform, for companies like HP, HPI, Mphasis, Sapient, Mindtree and more.</li><li>Developed and maintained the frontend of the sales website for Aware, a guided mindfulness meditation mobile app.</li></ul>"
+        name: "Infolytx Inc",
+        designation: "Software Engineer",
+        dated: "Sep 2015 - Oct 2016",
+        logo: infolytx,
+        companyLink: "http://www.infolytx.com",
+        description: "<p>Infolytx is an AI and Machine Learning company building software solutions to help organizations understand and monetize their data. " +
+            "</p><p>Past project work involved: : <p> <ul>" +
+            "<li>Worked on different machine learning-based solution.</li>" +
+            "<li>Algorithm used: Apriori algorithm, KNN, SVM, and different rule-based techniques</li>" +
+            "<li>Worked with UMLS dictionaries and HL7 standards</li>" +
+            "<li>Analyzing electronic medical records</li>" +
+            "<li>Analyzing large clinical data sets in MongoDB</li>" +
+            "<li>Aatural language processing in the clinical context (Java)</li>" +
+            "<li>Building web services / APIs (Java)</li>" +
+            "<li>Building front-end prototypes with Ruby on Rails and react</li>" +
+            "<li>Working on various Java applications - core project work, utilities, etc.</li>" +
+            "<li>Completed CSM and worked as a ScrumMaster and Team Lead on some projects.</li>" +
+            "</ul></p>"
     },
     {
-        id: 4,
-        name: "Caterpillar Inc.",
-        designation: "Associate IT Analyst",
-        dated: "​Aug 2015 - Dec 2015",
-        logo: cat,
-        companyLink: "https://www.caterpillar.com",
-        description: "<p>Started my career at Caterpillar Inc. in the Global Information Services(GIS) division as an Associate IT Analyst.</p><p>Features required me to work across the mainframe stack with COBOL, the primary mainframe programming language  which compiles to machine language, ISPF and JCL."
+        id: 3,
+        name: "Nascenia Limited, Dhaka",
+        designation: "Junior Software Engineer",
+        dated: "Aug 2014 - Aug 2015",
+        logo: nascenia,
+        companyLink: "https://www.nascenia.com/",
+        description: "<p>NASCENIA IS AN AWARD WINNING SOFTWARE COMPANY BUILDING WEB & MOBILE APPS FOR EUROPEAN AND NORTH AMERICAN CLIENTS " +
+            "</p><p>Contribution: : <p> <ul>" +
+            "<li>Worked as a team player to develop a web application with on Ruby on rails.</li>" +
+            "<li>Developed some projects solely from initial requirement gathering to design, coding, testing.</li>" +
+            "<li>Did documentation & implementation and client handling.</li>" +
+            "<li>Worked with the application server, web server, and Jenkins server.</li>" +
+            "<li>Handled and provided API services.</li>" +
+            "<li>Took Technical Session on Git, Clean Code, Active Record Query</li>" +
+            "</ul></p>"
     }
 ];
