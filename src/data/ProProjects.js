@@ -73,43 +73,45 @@ export default [
     },
     {
         id: 7,
-        title: "Vision ERA OCR",
+        title: "Project Surveillance, Epidemiology, End Results Program (“SEER”)",
         icon: vision,
-        description: "Vision ERA platform uses OCR  technologies to extract relevant data from printed documents such as government ID cards and invoices while automating a significant amount of cognitive work. Developed the front-end using HTML5 Canvas with ReactJS, Material-UI for CSS and MobX for state management. The uploaded document is mapped onto the canvas which shows the highlighted co-ordinates by hovering over the extracted data and also allowing users to extract a snippet by selecting the mouse over the area.",
+        description: "<p> 'Project SEER' attempts to detect the type (Benign, Uncertain, Carcinoma in Situ, Malignant )of breast cancer based on the SEER dataset from the National Institutes of Health (NIH). To classify the patients, we explored several traditional machine learning and deep learning techniques such as Support vector machine, Decision tree, Logistic regression, Naive Bayes, Feedforward, and Recurrent neural networks. We filled in some gaps in the data by preprocessing using imputation and other techniques. We identified 15 key features (out of 138 attributes) from the dataset, such as “CS Lymph Nodes”, “CS tumor age”, “Age at diagnosis”, “Tumor marker” etc. Our final dataset consisted of ~1.6 million breast cancer records. After training our data model, we achieved ~98% accuracy using a deep learning architecture. Then we tuned the parameters and were able to increase the accuracy to 99.25%. In summary, some of our algorithm’s predictions were accurate 99.25% of the time in detecting which of the 4 classes or types of breast cancer were present in the data.</p>",
         githubPath: null,
         demoPath: null,
-        year: "2019",
-        techUsed: "React, Material-UI, MobX"
+        year: "Dec 2017 – Feb 2018",
+        techUsed: "Python, TensorFlow, Keras, Traditional ML and DL"
     },
     {
         id: 6,
-        title: "Zoojoobe Social Stream",
+        title: "AnnaLytx: An intelligent conversational virtual agent",
         icon: like,
-        description: "Social feed is a feature on the Zoojoobe platform that leverages on the social behaviour within the corporate.It allows users on the platform to share media that keeps them motivated to do a certain task. Like all other social feeds, Zoojoobe Stream also has social elements like liking, sharing, commenting, subscribing to a particular post and so on. Developed using ReactJS and draft-js-plugins, a react plugin architecture for Facebook's Draft.js which includes emojis, mentions and stickers. ",
+        description: "",
         githubPath: null,
         demoPath: null,
-        year: "2018",
-        techUsed: "React, react-dropzone, draft-js-plugins"
+        year: "May 2017 – Dec 2017",
+        techUsed: "React, Python, Dialogue-flow, AWS, Watson conversation& discovery etc."
     },
     {
         id: 5,
-        title: "Zoojoobe Dare",
+        title: "DeepCare: Activity Recognition via Deep Learning",
         icon: dare,
-        description: "Dare is a feature on the Zoojoobe platform developed in ReactJS that primarily focuses on the competitive behaviour of the users. Two users compete with each other to complete a particular healthy task. Meanwhile other users within the corporate can motivate the user using the cheer function.",
+        description: "<p><ul><li>The DeepCare solution allows Certified Nursing Assistants (CNAs) and nurses to monitor more closely the ambulatory status of residents at eldercare and assisted living facilities. DeepCare uses Deep Learning and other machine learning techniques to determine whether a resident is sitting, walking, standing or climbing stairs. Wearables or smartphones outfitted with the app continuously sends sensor (accelerometer, gyroscope, GPS) data to a back-end server. The system then uses the machine-learning models to accurately predict the class of activity the user is performing.</li>" +
+            +"<li>The system then continuously sends status notifications to caregivers via both a desktop web application and a mobile app. When the system detects adverse (e.g. such as falling) or unusual events (such as no motion for a long time during the day) alerts are sent both to companion apps worn by caregivers and a web application that might be installed at a nurse’s station</li>" +
+            "</ul></p>",
         githubPath: null,
         demoPath: null,
-        year: "2017",
-        techUsed: "React, Material-UI"
+        year: "Jan 2017 – Apr 2017",
+        techUsed: "Java, Dropwizard, Python, Flask, Hibernate, tensorflow, Keras"
     },
     {
         id: 4,
-        title: "Zoojoobe Journey",
+        title: "Random Acts of Pizza : Kaggle Competition",
         icon: journey,
         description: "Journey feature on the Zoojoobe platform is a set of curated activities that are a set of micro-tasks that a user has to form to achieve a bigger goal like forming a complex habit. Journey feature has multiple levels which changes based on user activity. The whole task list is customised based on user activity.",
         githubPath: null,
         demoPath: null,
-        year: "2017",
-        techUsed: "React, Material-UI"
+        year: "Nov 2016 – Dec 2016",
+        techUsed: "Python"
     },
     {
         id: 3,
