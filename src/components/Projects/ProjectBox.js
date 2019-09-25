@@ -30,7 +30,7 @@ const Box = styled.div`
     max-width: 100%;
     margin: 0 0 4%;
   }
-`
+`;
 const BoxIcon = styled.div`
   height: 120px;
   display: flex;
@@ -57,7 +57,7 @@ const BoxIcon = styled.div`
       width: 10%;
     }
   }
-`
+`;
 const BoxDescription = styled.div`
   padding: 5%;
   flex-direction: column;
@@ -74,13 +74,13 @@ const BoxDescription = styled.div`
     margin:0 0 10px;
     text-decoration: none;
   }
-`
+`;
 const BoxStack = styled.div`
   margin-top: auto;
   p{
     margin: 0;
   }
-`
+`;
 const ProjectBox = ({ info }) => (
     <Box>
       <BoxIcon>
@@ -88,7 +88,7 @@ const ProjectBox = ({ info }) => (
         <h3>{info.title}</h3>
       </BoxIcon>
       <BoxDescription>
-        <p> {info.description}</p>
+          <p dangerouslySetInnerHTML={{__html: info.description}}/>
         <BoxStack>
           {
             info.githubPath != null ?
