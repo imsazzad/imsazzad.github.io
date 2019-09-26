@@ -3,13 +3,13 @@ import favicon from '../assets/images/rash-favicon.png'
 export const aboutWebsite = {
     "@context": "http://schema.org",
     "@type": "WebSite",
-    "url": "http://rashmiap.me",
+    // "url": "http://rashmiap.me",
     "name": "Md Abdul Hasib | Staff Software Engineer in ML , Infolytx",
     "author": {
         "@type": "Person",
         "name": "Md Abdul Hasib"
     }
-}
+};
 export const siteMeta = {
     title: 'Md Abdul Hasib | Frontend Developer',
     favicon: favicon,
@@ -28,4 +28,4 @@ export const siteMeta = {
         "engineer",
         "ui engineer"
     ],
-}
+};

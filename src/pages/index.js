@@ -1,5 +1,6 @@
 import React from 'react'
-import RashSelfIcon from '../assets/images/rashmi.svg'
+// import RashSelfIcon from '../assets/images/rashmi.svg'
+import RashSelfIcon from '../assets/images/profile-logo.jpg'
 import AboutBox from '../components/About/AboutBox'
 import about from '../data/About'
 import {DownloadButton, UserDescription, UserTitle, UserTopic, UserWrapper} from '../styles/indexStyle.js'
@@ -17,7 +18,7 @@ const IndexPage = () => {
         <DownloadButton href="https://github.com/sazzadBuet08/my_cv_2019/raw/master/MD%20ABDUL%20HASIB.pdf" download
                         title="Resume">Download Resume</DownloadButton>
       </div>
-      <img src={RashSelfIcon} alt="rashmi self" />
+      <img src={RashSelfIcon} alt="sazzad self"/>
     </UserDescription>
     <UserTopic>
       {

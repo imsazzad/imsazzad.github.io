@@ -1,19 +1,19 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { StaticQuery, graphql } from 'gatsby'
+import {graphql, StaticQuery} from 'gatsby'
 import styled from 'styled-components'
-import { siteMeta } from '../data/Seo'
+import {siteMeta} from '../data/Seo'
 import Helmet from 'react-helmet'
-import favicon from '../assets/images/rash-favicon.png'
+// import favicon from '../assets/images/rash-favicon.png'
+import favicon from '../assets/images/sazzad-favicon.png'
 import blueBg from '../assets/images/blue-bg.png'
-import { Location } from '@reach/router'
-
-// import Header from '../components/Header/Header'
-// import Footer from '../components/Footer/Footer'
-
+import {Location} from '@reach/router'
 import '../layouts/index.css'
 import Header from './Header/header';
 import Footer from './Footer/footer';
+
+// import Header from '../components/Header/Header'
+// import Footer from '../components/Footer/Footer'
 
 const Wrapper = styled.div`
   background-image: url(${blueBg});
@@ -68,10 +68,10 @@ const Layout = ({ children }) => (
       </>
     )}
   />
-)
+);
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
-}
+};
 
 export default Layout
