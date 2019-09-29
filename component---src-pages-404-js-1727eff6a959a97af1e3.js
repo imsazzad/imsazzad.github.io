@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{143:function(e,t,a){"use strict";a.r(t);var n=a(0),s=a.n(n),c=a(160),i=a.n(c);t.default=function(){return s.a.createElement("div",null,s.a.createElement("img",{src:i.a,alt:"Md Abdul Hasib"}),s.a.createElement("p",null,"You just hit a route that doesn't exist... the sadness."))}},160:function(e,t,a){e.exports=a.p+"static/rashmi-47da369548efc20ddbe222ca5f45ce56.svg"}}]);
+//# sourceMappingURL=component---src-pages-404-js-1727eff6a959a97af1e3.js.map
