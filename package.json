@@ -38,7 +38,8 @@
     "format": "prettier --write \"src/**/*.js\"",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
     "predeploy": "gatsby build",
-    "deploy": "gh-pages -d build --branch master"
+    "deploy": "gh-pages -d build --branch master",
+    "deploy:github": "npm run build && node ./scripts/deploy-github"
   },
   "devDependencies": {
     "prettier": "^1.15.2"
