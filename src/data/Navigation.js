@@ -18,5 +18,9 @@ export default [
   {
     label: 'Recommendation',
     path: '/recommendation',
+  },
+  {
+    label: 'Certificates',
+    path: '/certificates',
   }
 ]
