@@ -7,7 +7,7 @@ export default [
         title: "Github",
         icon: github,
         linkTo: true,
-        path: "https://github.com/sazzadBuet08"
+        path: "https://github.com/imsazzad"
     },
     {
         id: 4,

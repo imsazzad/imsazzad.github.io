@@ -1,4 +1,4 @@
-[**Personal Portfolio Website**](https://github.com/sazzadBuet08/abdulhasib.github.io)
+[**Personal Portfolio Website**](https://github.com/imsazzad/imsazzad.github.io)
 -
 Hello world 👋. <br/>
 This site is developed using [**Gatsby**](https://www.gatsbyjs.org/)🚀.<br/>
@@ -14,5 +14,5 @@ Check out the site at
  2.  Run  `npm install`
  3.  Run  `gatsby develop`
  4.  Go to  `http://localhost:8000`  to view the app 🚀
- 
+ 5.  For production deploy follow  `https://dev.to/flexdinesh/deploy-gatsby-sites-to-github-pages-eed`
  
