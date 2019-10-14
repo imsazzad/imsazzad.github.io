@@ -16,4 +16,18 @@ export default [
         linkTo: true,
         path: "https://www.linkedin.com/in/md-abdul-hasib-sazzad-19b88099/"
     },
+    {
+        id: 5,
+        title: "HackerRank",
+        icon: null,
+        linkTo: true,
+        path: "https://www.hackerrank.com/SazzadBuet08"
+    },
+    {
+        id: 6,
+        title: "Kaggle",
+        icon: null,
+        linkTo: true,
+        path: "https://www.kaggle.com/sazzadabdulhasib"
+    }
 ];
