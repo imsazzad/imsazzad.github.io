@@ -11,7 +11,7 @@ const ContactWrapper = styled.div`
       margin: 10% 0;
     }
   }
-`
+`;
 const ContactLink = styled.a`
   display: flex;
   align-items: center;
@@ -27,7 +27,7 @@ const ContactLink = styled.a`
       font-size: 20px;
     }
   }
-`
+`;
 const ContactBox = styled.div`
   display: flex;
   align-items: center;
@@ -42,17 +42,17 @@ const ContactBox = styled.div`
       font-size: 20px;
     }
   }
-`
+`;
 const SocialContact = ({ info }) => (
   <ContactWrapper>
     {
       info.linkTo ?
       <ContactLink href={info.path}>
-        <img src={info.icon} alt="contact link rashmiap" />
+          <img src={info.icon} alt="contact link sazzad"/>
         <p>{info.title}</p>
       </ContactLink>:
       <ContactBox>
-        <img src={info.icon} alt="contact link rashmiap"/>
+          <img src={info.icon} alt="contact link sazzad"/>
         <p>{info.title}</p>
       </ContactBox>
     }
