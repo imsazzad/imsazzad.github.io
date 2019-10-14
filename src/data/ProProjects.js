@@ -67,7 +67,7 @@ export default [
             "</ul>" +
             "</li>" +
             "<li>Structured unstructured clinical content such as EHRs by extracting and inferring medical terms such as findings, tests, procedures, diseases, etc using NLP techniques</li>" +
-            "<li>Implemented Object Detection Algorithm to classify and localize an object in an image with 98%accuracy.</li>" +
+            // "<li>Implemented Object Detection Algorithm to classify and localize an object in an image with 98%accuracy.</li>" +
             "<li>Created heuristics that applied combined medical knowledge into rules and are applied\n" +
             "to the annotated text to determine whether a selection criterion has been met.</li>" +
             "<li>Extended Wendy Chapman's NegEx algorithm determining negation from clinical reports\n" +
@@ -198,7 +198,7 @@ export default [
             "<li>Used Ruby on Rails, MySQL, Unit and Integration testing.</li>" +
             "</ul></p>",
         githubPath: null,
-        demoPath: "http://www.bdipo.com/",
+        demoPath: null,
         year: "Jun 2015 – Aug 2015",
         techUsed: "java, aws , rapid miner, xamarin"
     },
