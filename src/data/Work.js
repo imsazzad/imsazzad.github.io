@@ -1,7 +1,19 @@
-import nascenia from '../assets/images/nascenia.png'
+import nascenia from '../assets/images/Nascenia.png'
 import infolytx from '../assets/images/infologo.png'
+import deeplearningai from '../assets/images/deeplearning-logo.svg'
 // </li><li></li><li></li><li></li>
 export default [
+    {
+        id: 0,
+        name: "deeplearning.ai",
+        designation: "Consultant",
+        dated: "Jan 2020 - present",
+        logo: deeplearningai, // infolytx logo lagbe
+        companyLink: "https://www.deeplearning.ai/",
+        description: "<p>Whether you want to build algorithms or build a company, deeplearning.ai’s courses will teach you key concepts and applications of AI." +
+            "</p><p>Contribution : <p> " +
+            "<ul><li>Reviewing the upcoming courses at deeplearning.ai.</li>" + "</p>"
+    },
     {
         id: 1,
         name: "Infolytx Inc",
